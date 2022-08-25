@@ -1,0 +1,201 @@
+CSS Properties
+accent-color 
+- The accent-color property specifies the accent color for user-interface controls like: <input type="checkbox">, <input type="radio">, <input type="range"> and <progress>.
+syntax: accent-color: auto|color|initial|inherit;
+align-content
+- Nó tương tự như các mặt hàng Align, nhưng thay vì căn chỉnh các mục Flex, nó sắp xếp các đường flex.
+syntax: align-content: stretch|center|flex-start|flex-end|space-between|space-around|initial|inherit;
+align-items
+- Thuộc tính Align-item chỉ định căn chỉnh mặc định cho các mục bên trong thùng chứa linh hoạt.
+syntax: align-items: stretch|center|flex-start|flex-end|baseline|initial|inherit;
+align-self
+- Thuộc tính tự căn chỉnh chỉ định căn chỉnh cho mục được chọn bên trong thùng chứa linh hoạt.
+syntax: align-self: auto|stretch|center|flex-start|flex-end|baseline|initial|inherit;
+all
+- Đặt lại tất cả các thuộc tính, ngoài Unicode-BIDI và hướng, đến giá trị ban đầu hoặc được kế thừa của chúng.
+syntax: all: initial|inherit|unset;
+animation-delay
+- Thuộc tính trễ hình ảnh động chỉ định độ trễ cho sự khởi đầu của một hình ảnh động.
+syntax: animation-delay: time|initial|inherit;
+animation-direction
+- Xác định xem một hình ảnh động nên được phát về phía trước, ngược hoặc trong các chu kỳ thay thế.
+syntax: animation-direction: normal|reverse|alternate|alternate-reverse|initial|inherit;
+animation-duration
+- Xác định mốc thời gian để hoàn thành một chu kỳ.
+syntax: animation-duration: time|initial|inherit;
+animation-fill-mode
+- Thuộc tính chế độ quay hoạt hình chỉ định một kiểu cho phần tử khi hoạt hình không phát (trước khi nó bắt đầu, sau khi nó kết thúc hoặc cả hai).
+syntax: animation-fill-mode: none|forwards|backwards|both|initial|inherit;
+animation-iteration-count
+- Specifies the number of times an animation should be played
+syntax: animation-iteration-count: number|infinite|initial|inherit;
+animation-name
+- The animation-name property specifies a name for the @keyframes animation.
+syntax: animation-name: keyframename|none|initial|inherit;
+animation-play-state
+- The animation-play-state property specifies whether the animation is running or paused.
+syntax: animation-play-state: paused|running|initial|inherit;
+animation-timing-function
+- Xác định tốc độ đường cong của animation
+syntax: animation-timing-function: linear|ease|ease-in|ease-out|ease-in-out|step-start|step-end|steps(int,start|end)|cubic-bezier(n,n,n,n)|initial|inherit;
+backdrop-filter
+- Được sử dụng để áp dụng một hiệu ứng đồ họa cho khu vực phía sau một yếu tố.
+syntax: backdrop-filter: none|filter[
+blur()
+brightness()
+contrast()
+drop-shadow()
+grayscale()
+hue-rotate()
+invert()
+opacity()
+sepia()
+saturate()]|initial|inherit;
+backface-visibility
+- Thuộc tính xác định xem có thể nhìn thấy mặt sau của một phần tử khi đối mặt với người dùng hay không.
+syntax: backface-visibility: visible|hidden|initial|inherit;
+background-attachment
+- sets whether a background image scroll cuộn với trang or is fixed 
+syntax: background-attachment: scroll|fixed|local|initial|inherit;
+background-blend-mode
+- Chế độ pha trộn của mỗi lớp nền (màu và/hoặc hình ảnh).
+syntax: background-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|saturation|color|luminosity;
+background-clip
+- Xác định bao xa của nề (màu hoặc hình ảnh) sẽ mở rộng trong một phần tử
+background-image
+- Sets one or more background images for an element.
+syntax: background-image: url|none|initial|inherit;
+background-origin
+- Thuộc tính Chỉ định vị trí gốc (khu vực định vị nền) của hình nền.
+syntax: background-origin: padding-box|border-box|content-box|initial|inherit;
+background-position
+- sets the starting position of a background image.
+syntax: background-position: value[center,left,left center];
+background-repeat
+-  sets if/how a background image will be repeated.
+syntax: background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit;
+backgroud-size
+- specifies the size of the background images.
+syntax: background-size: auto|length|cover|contain|initial|inherit;
+box-decoration-break
+- Thuộc tính Chỉ định cách thức nền, đệm, đường viền, hình ảnh biên giới, bóng hộp, lề và đường dẫn clip của một phần tử được áp dụng khi hộp cho phần tử bị phân mảnh.
+syntax: box-decoration-break: slice|clone|initial|inherit|unset;
+box-shadow
+-  attaches one or more shadows to an element.
+syntax: box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
+box-sizing
+- Thuộc tính kích thước hộp xác định cách tính chiều rộng và chiều cao của một phần tử: nếu chúng bao gồm đệm và đường viền, hoặc không.
+syntax: box-sizing: content-box|border-box|initial|inherit;
+caption-side
+-  specifies the placement of a table caption.
+syntax: caption-side: top|bottom|initial|inherit;
+caret-color
+- Xác định màu của con trỏ ở ô input
+syntax: caret-color: auto|color|initial|inherit;
+clear
+- Tài sản kiểm soát dòng chảy bên cạnh các yếu tố nổi.
+syntax: clear: none|left|right|both|initial|inherit;
+colmun-count
+- Chỉ định số lượng cột Một phần tử nên được chia thành.
+syntax: column-count: number|auto|initial|inherit;
+column-fill
+- specifies how to fill columns, balanced or not.
+syntax: column-fill: balance|auto|initial|inherit;
+column-gap
+- specifies the gap between the columns.
+syntax: column-gap: length|normal|initial|inherit;
+column-rule
+- column-rule property sets the width, style, and color of the rule between columns.
+syntax: column-rule: column-rule-width column-rule-style column-rule-color|initial|inherit;
+column-rule-color|column-rule-style|column-width
+- định dạng màu, style và chiều rộng cho column
+syntax: column-rule-color: color|initial|inherit;
+column-rule-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit;
+column-rule-width: medium|thin|thick|length|initial|inherit;
+column-span
+- Thuộc tính cột cột chỉ định số lượng một phần tử nên trải dài trên.
+syntax: column-span: none|all|initial|inherit;
+column-width
+- thuộc tính Chỉ định chiều rộng cột
+syntax: column-width: auto|length|initial|inherit;
+=> columns: auto|column-width column-count|initial|inherit;
+content
+- Thuộc tính nội dung được sử dụng với :: before và :: after pseudo-elements, để chèn nội dung được tạo.
+syntax: content: normal|none|counter|attr|string|open-quote|close-quote|no-open-quote|no-close-quote|url|initial|inherit;
+couter-increment
+- The counter-increment property increases or decreases the value of one or more CSS counters.
+syntax: counter-increment: none|id|initial|inherit;
+counter-reset
+-  creates or resets one or more CSS counters.
+syntax: counter-reset: none|name number|initial|inherit;
+cursor
+- specifies the mouse cursor to be displayed when pointing over an element.
+syntax: cursor: value;
+direction
+- Chỉ định hướng văn bản/hướng viết trong một phần tử cấp khối.
+syntax: direction: ltr|rtl|initial|inherit;
+display
+- specifies the display behavior (the type of rendering box) of an element.
+syntax: display: value;
+empty-cells
+- sets whether or not to display borders on empty cells in a table.
+syntax: empty-cells: show|hide|initial|inherit;
+filter
+- Thuộc tính xác định các hiệu ứng hình ảnh (như mờ và bão hòa) thành một phần tử (thường <MIMG>).
+syntax: filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url();
+flex-basis
+- Thuộc tính Chỉ định độ dài ban đầu của một flexible-item.
+syntax: flex-basis: number|auto|initial|inherit;
+flex-direction
+- thuộc tính chỉ định hướng của các flexible item
+syntax: flex-direction: row|row-reverse|column|column-reverse|initial|inherit;
+flex-grow
+- Thuộc tính Flex-Grow chỉ định số lượng vật phẩm sẽ phát triển so với phần còn lại của các mục linh hoạt bên trong cùng một thùng chứa.
+syntax: flex-grow: number|initial|inherit;
+flex-shrink
+- Thuộc tính Chỉ định cách vật phẩm sẽ co lại so với phần còn lại của các mục linh hoạt bên trong cùng một thùng chứa.
+syntax: flex-shrink: number|initial|inherit;
+flex-wrap
+- property specifies whether the flexible items should wrap or not.
+syntax: flex-wrap: nowrap|wrap|wrap-reverse|initial|inherit;
+float
+- specifies whether an element should float to the left, right, or not at all.
+syntax: float: none|left|right|initial|inherit;
+grap
+- gap property defines the size of the gap between the rows and columns.
+syntax: gap: row-gap column-gap;
+grid-area
+- The grid-area property specifies a grid item's size and location in a grid layout
+syntax: grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end | itemname;
+grid-auto-columns
+-  controls how auto-placed items get inserted in the grid.
+grid-auto-flow: row|column|dense|row dense|column dense;
+grid-auto-flow
+- property controls how auto-placed items get inserted in the grid.
+syntax: grid-auto-flow: row|column|dense|row dense|column dense;
+grid-auto-rows
+- sets a size for the rows in a grid container.
+syntax: grid-auto-rows: auto|max-content|min-content|length;
+grid-column
+- property specifies a grid item's size and location in a grid layout
+syntax: grid-column: grid-column-start / grid-column-end;
+grid-column-end
+grid-column-gap
+grid-template-areas
+- property specifies areas within the grid layout.
+syntax: grid-template-areas: none|itemnames;
+grid-template-columns
+- property specifies the number (and the widths) of columns in a grid layout.
+syntax: grid-template-columns: none|auto|max-content|min-content|length|initial|inherit;
+grid-template-rows
+- property specifies the number (and the heights) of the rows in a grid layout.
+syntax: grid-template-rows: none|auto|max-content|min-content|length|initial|inherit;
+justify-content
+- Thuộc tính căn chỉnh các vật phẩm của container linh hoạt khi các mục không sử dụng tất cả không gian có sẵn trên trục chính (theo chiều ngang).
+syntax: justify-content: flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit;
+@keyframes
+- rule specifies the animation code.
+syntax: @keyframes animationname {keyframes-selector {css-styles;}}
+margin
+- The margin property sets the margins for an element,
+syntax: margin: length|auto|initial|inherit;

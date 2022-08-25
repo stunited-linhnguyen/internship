@@ -1,0 +1,71 @@
+
+.header{
+    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url('/image/slideshow/1566375726229.jpeg');
+    min-height: 100vh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header-center{
+    width: 800px;
+    margin: 0 auto;
+    list-style: none;
+    display:flex;
+    text-align: center;
+    position: relative;
+
+}
+
+.menu{
+    margin-top: 25px;
+    list-style: none;
+    display:flex;
+    text-align: center;
+    color: #fff;
+    font-size: 14px
+}
+.menu li {
+    margin: 10px;
+    text-transform:uppercase;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.menu a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.menu li:hover{
+    color:rgb(27, 164, 206);
+    cursor: pointer;
+}
+.text-box{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    position:absolute;
+    top:75%;
+
+}
+.btn{
+    font-family: 'Cabin';
+
+    background-color:rgb(255, 149, 10);
+    color: #fff;
+    padding: 12px 34px;
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+/* ----------Successful Storeis-------- */
+.successful-stories{
+    margin-top: 30px;
+    text-align: center;
+}
+.successful-stories p{
+    margin-top: 10px;
+}

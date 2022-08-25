@@ -1,0 +1,13 @@
+Kiểu dữ liệu nguyên thủy:
+
+Number: Các số nguyên hoặc số thực. Ví dụ: 5 hoặc 5.05
+String: là các text như “Các kiểu dữ liệu trong JavaScript”, text có thể có một hoặc nhiều ký tự.
+Boolean: chỉ có 2 giá trị là true hoặc false.
+Undefine:  là các giá trị không xác định.
+Null: đơn giản là không có giá trị nào cả.
+
+Kiểu dữ liệu không nguyên thủy (tham chiếu):
+
+Object: Thể hiện một đối tượng và các thuộc tính có thể truy cập đến.
+Array: Nhóm các giá trị giống nhau.
+RegExp: Biểu thức chính quy.

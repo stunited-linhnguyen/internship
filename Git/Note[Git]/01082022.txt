@@ -1,0 +1,15 @@
+* Tạo 1 repository mới trên Github với tên stu-[yourname]
+ * Tạo ra 1 file với tên stu.text và push code lên Github với branch "master" nội dung: Hello STUnited 
+ * Tạo 1 branch mới với tên yourname-demo1 và checkout sang branch  vừa tạo, và sửa đổi nội dụng file stu.text sau đó push code lên Github nội dung: Hello STUnited I am new member
+ * Tạo 1 branch mới với tên yourname-demo2 và checkout sang branch  vừa tạo, và sửa đổi nội dụng file stu.text sau đó push code lên Github nội dung: Hello STUnited My name is **your-name**
+-------------------
+What is git?
+Git is a distributed [phân tán] version control system for managing source code.
+time-consuming and impractical : mất thời gian và không thực tế
+ With Git, you can easily access your source code's revision history and track changes. You can see how the version has changed over time and who has made the changes. Because the latest version of a file is stored on a shared repository, Git can prevent unintentional overwrites by anyone on your team who has an older version of the file.
+prevent unintentional overwrites: ngăn chặn sự ghi đè không chủ ý
+In short, a version control system like Git makes it easy to:
+Keep track of code history
+Collaborate on code as a team
+See who made which changes
+Deploy code to staging or production

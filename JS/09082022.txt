@@ -1,0 +1,14 @@
+Giới thiệu một số hàm built-in
+1. Alert-> xuất hiện message
+2. Console-> nhìn thấy những lỗi, cảnh cáo xảy ra trên trang web, tương tác với trang web, gỡ lỗi ngay trên trình duyệt, kiểm tra nghiên cứu các hoạt động của network
+3. Confirm-> xuất hiện xác nhận có button cancel và ok
+4. Prompt-> Hiển thị hộp thoại thông báo nhắc người dùng nhập vào dữ liệu dưới dạng văn bản. có button cancel và ok
+5. set timeout-> chạy một đoạn code sau một khoảng thời gian->chỉ một lần
+6. set interval->chạy một đoạn code trong một khoảng thời gian -> nhiều lần
+* Javascript: Sự khác nhau giữa Cookie, localStorage và sessionStorage 
+- localStorage giống như một database trên browser. Chúng ta có thể lưu những thông tin đơn giản của người dùng vào browser. Thông tin này được lưu vĩnh viễn trừ khi bạn xoá nó đi.
+có hai trường là: key và value.
+- sessionStorage khá giống với localStorage. Ngoại trừ sessionStorage sẽ mất đi khi chúng ta đóng tab, đóng trình duyệt.
+Một khuyết điểm của cả localStorage và sessionStorage là có thể bị đọc bởi Javascript. Do đó dễ bị đánh cắp thông tin thông qua một cross-site scriting. Vì vậy, chúng ta không nên lưu trữ những thông tin nhạy cảm như token ID, password, username, email của người dùng vào localStorage hay sessionStorage.
+- Một trong những điểm khác biệt của cookie là em nó được gửi kèm theo request của browser cho nên bạn có thể truy cập và xử lý cookie ở server side dựa vào cookie được gắn kèm với request.
+* Javascript: Cách sử dụng var, let và const
